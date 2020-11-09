@@ -1,0 +1,33 @@
+{
+	"name": "va-multiviz",
+	"displayName": "MultiViz Plugin",
+	"description": "MultiViz plugin for VSCode",
+	"version": "1.0.0",
+	"publisher": "viking-analytics",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"icon": "multiviz.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vikinganalytics/mv-vscode"
+	},
+    "contributes": {
+        "snippets": [
+			{
+				"language": "python",
+				"path": "./snippets/python.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/json.json"
+			}
+        ]
+    },
+    "categories": [
+        "Snippets"
+    ],
+	"keywords": [
+		"multiviz"
+	]
+}
