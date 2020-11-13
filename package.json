@@ -12,8 +12,9 @@
 		"type": "git",
 		"url": "https://github.com/vikinganalytics/mv-vscode"
 	},
-    "contributes": {
-        "snippets": [
+	"homepage": "https://github.com/vikinganalytics/mv-vscode/blob/master/README.md",
+	"contributes": {
+		"snippets": [
 			{
 				"language": "python",
 				"path": "./snippets/python.json"
@@ -21,12 +22,25 @@
 			{
 				"language": "json",
 				"path": "./snippets/json.json"
+			},
+			{
+				"language": "yaml",
+				"path": "./snippets/yaml.json"
 			}
-        ]
-    },
-    "categories": [
-        "Snippets"
-    ],
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorLangId == dockerfile && isAzureAccountInstalled",
+					"command": "vscode-docker.registries.azure.buildImage",
+					"group": "multiviz"
+				}
+			]
+		}
+	},
+	"categories": [
+		"Snippets"
+	],
 	"keywords": [
 		"multiviz"
 	]
