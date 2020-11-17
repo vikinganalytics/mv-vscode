@@ -2,7 +2,7 @@
 	"name": "va-multiviz",
 	"displayName": "MultiViz Plugin",
 	"description": "MultiViz plugin for VSCode",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "viking-analytics",
 	"engines": {
 		"vscode": "^1.28.0"
@@ -43,5 +43,10 @@
 	],
 	"keywords": [
 		"multiviz"
-	]
+	],
+	"__metadata": {
+		"id": "86de314a-b9d2-4d08-95ad-9bf2eb0b2177",
+		"publisherDisplayName": "Viking Analytics",
+		"publisherId": "404460a2-b435-4b1a-bfd4-2a9bea569f62"
+	}
 }

@@ -128,5 +128,25 @@
 			"}"
 		],
 		"description": "Create MultiViz connector plugin template"
+	},
+	"Create MultiViz report plugin": {
+		"prefix": "mv-report",
+		"body": [
+			"{",
+			"    \"$schema\": \"https://vikinganalytics.github.io/multiviz/extension-schema.json\",",
+			"    \"name\": \"${1:plugin name, e.g. 'MultiViz report plugin for ...'}\",",
+			"    \"description\": \"${2:longer description of the plugin}\",",
+			"    \"extension\": \"${3:short unique plugin/extension name, e.g. my_report_plugin}\",",
+			"    \"version\": \"1.0.0\",",
+			"    \"type\": \"python\",",
+			"    \"run\": \"main.py\",",
+			"    \"triggers\": [",
+			"        \"logitem\"",
+			"    ],",
+			"    \"parameters\": {",
+			"    }",
+			"}"
+		],
+		"description": "Create MultiViz report plugin template"
 	}
 }

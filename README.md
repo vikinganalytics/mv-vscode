@@ -12,7 +12,7 @@ To install the extension, open the Extensions view, search for `multiviz` to fil
 
 ### Code snippets
 
-You can get use `mv-analyze` and `mv-connector` in JSON and Python files to get help with templates for creating analyze and connector plugins for MultiViz. If in a json file (**extension.json**) then the template for a plugin description is used and for a Python file (**main.py**) the template for the implementation is created.
+You can get use `mv-analyze`, `mv-connector` amd `mv-report` in JSON and Python files to get help with templates for creating analyze, connector and report plugins for MultiViz. If in a json file (**extension.json**) then the template for a plugin description is used and for a Python file (**main.py**) the template for the implementation is created.
 
 ## Contributing
 
